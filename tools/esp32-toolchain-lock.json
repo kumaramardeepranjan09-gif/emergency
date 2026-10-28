@@ -1,0 +1,18 @@
+[
+  {
+    "url": "https://github.com/arduino/arduino-cli/releases/download/v1.2.2/arduino-cli_1.2.2_Linux_64bit.tar.gz",
+    "sha256": "a5ad085d1b02fd4010df18b1bbf20453276efe6c6e2ac323baa0cac4e96a85b4"
+  },
+  {
+    "url": "https://github.com/espressif/arduino-esp32/releases/download/2.0.17/esp32-2.0.17.zip",
+    "sha256": "1f8658d4b18a8001ce782142ad08164af2991d70b83a147c3437a6ee30a9b225"
+  },
+  {
+    "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2-patch5/xtensa-esp32-elf-gcc8_4_0-esp-2021r2-patch5-linux-amd64.tar.gz",
+    "sha256": "8ef14e0409c2011b41e504a30f70d3e35287313a795d1f2462ad2cd0e2052d37"
+  },
+  {
+    "url": "https://github.com/espressif/arduino-esp32/releases/download/2.0.7/esptool-v4.5.1-src.tar.gz",
+    "sha256": "aa06831a7d88d8ccde4ea21241e983a08dbdae967290e181658b0d18bffc8f86"
+  }
+]

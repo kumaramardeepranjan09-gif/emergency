@@ -1,0 +1,7 @@
+.pio/
+.venv/
+__pycache__/
+*.pyc
+firmware/include/secrets.h
+firmware/include/dashboard.h
+.local/

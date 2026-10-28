@@ -1,0 +1,56 @@
+{
+  "features": [
+    "temp_c",
+    "vibration_g",
+    "rotation_dps",
+    "used_hours"
+  ],
+  "mean": [
+    31.725037125640817,
+    0.3939720925800439,
+    48.3074412885066,
+    5.75
+  ],
+  "std": [
+    4.278984324036293,
+    0.20410893477502168,
+    29.82803777480573,
+    3.4610932762158644
+  ],
+  "weights": [
+    -0.6683301150407814,
+    1.0569354948979692,
+    0.6219323232429935,
+    0.6946163977956997,
+    0.6462271952853468
+  ],
+  "threshold": 0.5,
+  "metrics": {
+    "accuracy": 0.8479166666666667,
+    "precision": 0.8284313725490197,
+    "recall": 0.8164251207729468,
+    "f1": 0.8223844282238443,
+    "roc_auc": 0.9179097874750048,
+    "confusion_matrix": {
+      "tn": 238,
+      "fp": 35,
+      "fn": 38,
+      "tp": 169
+    },
+    "rows": 480,
+    "majority_baseline_accuracy": 0.56875
+  },
+  "split": {
+    "strategy": "80/20 grouped by machine_id; scaler fitted only on training set",
+    "train_machines": 80,
+    "test_machines": 20,
+    "train_rows": 1920,
+    "test_rows": 480
+  },
+  "target": "failure within the next hour",
+  "architecture": "L2 logistic regression; 600 full-batch gradient steps",
+  "deployment": "Research artifact only; never overrides firmware safety rules",
+  "data_source": "SYNTHETIC_DEMONSTRATION_ONLY",
+  "real_world_validated": false,
+  "limitations": "No claim of real-world accuracy, calibrated RUL, causal fault diagnosis or suitability for safety decisions. Audit label timing and failure windows before training on actual data."
+}
